@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <section id="first">
+        <div>
+            <h1> Meme Generator</h1>
+            <p class="prompt"> Let's create your meme: </p>
+            <form id="form" autocomplete="off">
+                <div class="parent-div">
+                    <label class="label" for="add-meme-image">Add Image URL here:</label>
+                    <input class="input" type="text" id="add-meme-image" placeholder="URL for your meme here">
+                </div>
+               
+                <div class="parent-div">
+                    <label class="label" for="add-top-text">Add Top Text here:</label>
+                    <input class="input" type="text" id="add-top-text" placeholder="Top text for your meme here">
+                 </div>
+                
+                 <div class="parent-div">
+                    <label class="label" for="add-bottom-text">Add Bottom Text here:</label>
+                    <input class="input" type="text" id="add-bottom-text" placeholder="Bottom text for your meme here">
+                </div>
+             
+
+                <div class="parent-div">
+                    <button type="submit" id="submit-meme">Create Meme</button> 
+                </div>
+            </form>
+        </div>
+    </section>     
+    
+    <section id="second">
+        <div id="result">
+            <ul class="meme-list"></ul>
+        </div>
+    </section>    
+    <script src="meme.js"></script>
+</body>
+</html>

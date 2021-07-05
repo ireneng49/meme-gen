@@ -1,0 +1,77 @@
+.label {
+ width: 200px;
+ display: inline-block;
+}
+
+.input {
+ flex-grow: 1;
+}
+
+.parent-div {
+    display: flex;
+    padding: 5px 0;
+    height: 30px;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.prompt {
+    color: gray;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: orangered;
+}
+
+.meme-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.meme-top {
+    position: absolute;
+    display: block;
+    top: 0;
+    text-align: center;
+    color: white;
+    font-size:  30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 100%;
+    margin: 0;
+    padding-top: 5px;
+
+}
+
+.meme-bottom {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size:  30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 100%;
+    text-align: center;
+}
+
+.meme-img {
+    border-radius: 5px;
+}
+
+.meme-delete {
+    display: block;
+    width: 100%;
+}
+
+.meme-container img {
+    max-width: 300px;
+}
+
+
+
+
